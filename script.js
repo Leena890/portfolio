@@ -10,7 +10,8 @@ function formValidation(){
   var message = form.message.value;
   if(validateInput(name,address,mobile)){
       alert("Form submitted");
-  }
+  }else{
+    alert("There was issue submitting form");
 }
 function validateInput(name,address,mobile){
     var boolean;
