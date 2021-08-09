@@ -10,7 +10,6 @@ function formValidation(){
   var message = form.message.value;
   if(validateInput(name,address,mobile)){
       alert("Form submitted");
-      form.reset();
   }
 }
 function validateInput(name,address,mobile){
