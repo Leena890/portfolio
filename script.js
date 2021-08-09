@@ -31,6 +31,5 @@ function validateInput(name,address,mobile){
         return false;
     }else{
         errorMobile.innerText ="";
-    }
-    return true; 
+    } 
 }
