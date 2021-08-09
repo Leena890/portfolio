@@ -20,17 +20,20 @@ function validateInput(name,address,mobile){
         return false;
     }else{
         errorName.innerText="";
+      return true;
     }
     if(address.length<2){
         errorAddress.innerText ="Please check your address should be 2 or more char";
         return false;
     }else{
         errorAddress.innerText ="";
+      return true;
     }
     if(!mobile.match(/^(\+\d{1,3}[- ]?)?\d{10}$/) && ! (mobile.match(/0{5,}/))){
         errorMobile.innerText = "Please check Mobile is not valid";
         return false;
     }else{
         errorMobile.innerText ="";
+      return true;
     } 
 }
