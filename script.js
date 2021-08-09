@@ -12,7 +12,7 @@ function formValidation(){
       alert("Form submitted");
   }else{
     alert("There was issue submitting form");
-}
+}}
 function validateInput(name,address,mobile){
     var boolean;
     if(name.length<2){
