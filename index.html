@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!--FontAwsome-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Leena || Portfolio</title>
+  </head>
+  <body id="portfolio">
+    <div class="container text-center">
+        <img src="./leena.jpeg" class="rounded rounded-circle" alt="">
+            <h1>Leena K S</h1>
+            <h4>Web Developer</h4>
+            <div class="text-primary m-9">
+                <a href="#"><i class="fa fa-github-square p-2 fa-2x" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-linkedin-square p-2 fa-2x" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter-square p-2 fa-2x" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram p-2 fa-2x" aria-hidden="true"></i></a>
+            </div>
+            <a href="#contact-me"><button class="btn btn-primary">Contact me</button></a>
+        <div class="row m-2">
+            <div class="col-md-6 text-primary bg-white p-3 m-1 text-left">
+                <h3>Career Objective</h3>
+                <hr>
+                <p>Looking for a challenging role in a reputable organization to utilize my technical skills for the growth of the organization as well as to upgrade my knowledge about new and emerging technology in the IT sector.</p>
+            </div>
+            <div class="col-md-5 bg-primary p-3 m-1 text-white text-left">
+                <h3>Skills</h3><hr>
+                <h6>Angular</h6>
+                <div class="progress mb-1">
+                    <div class="progress-bar bg-secondary" style="width: 90%;"></div>
+                </div>
+                <h6>Bootstrap</h6>
+                <div class="progress mb-1">
+                    <div class="progress-bar bg-secondary" style="width: 80%;"></div>
+                </div>
+                <h6>Javascript/Typescript</h6>
+                <div class="progress mb-1">
+                    <div class="progress-bar bg-secondary" style="width: 70%;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row m-2">
+            <div class="col-md-8  bg-primary text-white p-3 m-1 text-left">
+                <h3>Education</h3>
+                <hr>
+                <h6><strong>Post Graduation</strong> </h6>
+                <span>MTech from BITS Pilani</span><br>
+                <span>Batch: 2018</span>
+                <br><br>
+                <h6><strong>Graduation</strong> </h6>
+                <span>BCA. from Bapuji institute of hi tech education</span><br>
+                <span>Batch: 2015-2018</span>
+            </div>
+            <div class="col-md-3 bg-white text-primary text-left  m-1 p-3 pb-10">
+                <h3>Hobbies</h3><hr>
+                <ul>
+                    <li>Listening songs</li>
+                    <li>Photography</li>
+                    <li>Travelling and Reading books</li>
+                    <li>Indoor Games</li>
+                </ul>
+                <h3>Languages</h3>
+                <ul>
+                    <li>English</li>
+                    <li>Hindi</li>
+                    <li>Kannada</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row m-2">
+            <div class="col-md-4  bg-white text-primary p-3 m-1 text-left">
+                <h3>Contact</h3>
+                <hr>
+                <i class="fa fa-map-marker fa-1x p-2" aria-hidden="true"></i>Bangalore, Karnataka, India 560100<br>
+                <i class="fa fa-phone fa-1x p-2" aria-hidden="true"></i>8978456746 <br>
+                <i class="fa fa-envelope fa-1x p-2" aria-hidden="true"></i>leena@gmail.com
+            </div>
+            <div class="col-md-7 bg-primary text-white text-left  m-1 p-3 pb-10">
+                <h3>Experience</h3>
+                <hr>
+                <h5>Apigee Developer</h5>
+                <p>Wipro technology  2018 - current</p>
+                <p>Currently in Wipro I am working as integration Engineer for Middleware team.
+                    Currently working on Apigee tool to create Restful API proxy and maintaining these API. During my time in team, I have gained experience developing API and securing this with various policies. I have recognized for my work and my effort for the team. 
+                </p>
+            </div>
+        </div>
+        <div class="row m-2" id="contact-me">
+            <div class="col-md-6 d-flex justify-content-center align-items-center">
+                <img src="./contact.jpg" class="img-fluid max-width: 100%" alt="">
+            </div>
+            <div class="col-md-6">
+                <div class="card text-left">
+                    <div class="card-header">
+                        <h4>Contact me</h4>
+                    </div>
+                    <div class="card-body">
+                        <form id="myForm" onSubmit="formValidation()">
+                            <div class="form-group">
+                              <label for="name">Name</label>
+                              <input type="text" class="form-control" id="name" aria-describedby="emailHelp" required>
+                              <small id="errorName" class="form-text text-danger"></small>
+                            </div>
+                            <div class="form-group">
+                              <label for="address">Address</label>
+                              <input type="text" class="form-control" id="address" required>
+                              <small id="errorAddress" class="form-text text-danger"></small>
+                            </div>
+                            <div class="form-group">
+                                <label for="mobile">Mobile Number</label>
+                                <input type="tel" class="form-control" id="mobile" required>
+                                <small id="errorMobile" class="form-text text-danger"></small>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea class="form-control" id="message" placeholder="Required example textarea" required></textarea>
+                                <small id="errorMessage" class="form-text text-danger"></small>
+                              </div>
+                            <button type="submit" class="btn btn-primary" onClick="">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>       
+        
+    </div>
+    <footer class="text-center mt-2 bg-secondary text-white" >
+        <div class="m-9">
+            <a href="#"><i class="fa fa-github-square p-2 text-white aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-linkedin-square p-2 text-white" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter-square p-2 text-white" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-instagram p-2 text-white" aria-hidden="true"></i></a>
+        </div>
+        <p class="copyright">Leena K S © 2021</p>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

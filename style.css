@@ -1,0 +1,9 @@
+.rounded{
+    width:300px;
+    height: 3   00px;
+    border: 2px solid blue;
+    margin: 2%;
+}
+#portfolio{
+    background-color: rgb(232, 232, 233);
+}
